@@ -11,9 +11,9 @@ module.exports = {
         sans: ["Roboto", "sans-serif"],
       },
       colors: {
-        "dark-1": "#0A1329",
+        "dark-1": "#0F172A",
         "blue-1": "#0a1b46",
-        "blue-2": "#5EB0ED",
+        "blue-2": "#43a3ea",
         "white-1": "#8997AC",
         "white-2": "#e2e8f0",
       },
