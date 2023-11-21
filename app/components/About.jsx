@@ -1,24 +1,26 @@
-"use client";
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 const About = () => {
   return (
-    <div>
+    <section id="about" className="h-[700px] pt-24">
       <div className="flex justify-center">
-        <p className="text-white-2 font-bold text-6xl">
+        <p className="text-white-1 font-bold text-8xl">
           Hi, I&apos;m Abram Bagus Janitra
         </p>
       </div>
-      <div className="flex justify-center mt-10  mx-72">
+      <div className="flex justify-center mt-10 mx-72">
         <p className="text-white-1 text-2xl text-center">
-          a front end developer with 2 years of experience. I graduated from
-          Binus University in 2021 and I&apos;m passionate about creating
-          beautiful and functional web applications using modern technologies
-          for my client. Some of the skills I have are Next.js, React.js, HTML,
-          CSS, Material UI, and Tailwind CSS.
+          a front end developer with 2 years of experience. Graduated from Binus
+          University in 2021 and passionate about creating beautiful and
+          functional web applications using modern technologies for my client.
         </p>
       </div>
-    </div>
+      {/* <div>
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <line x1="10" y1="0" x2="10" y2="50" stroke="red" />
+        </svg>
+      </div> */}
+    </section>
   );
 };
 
