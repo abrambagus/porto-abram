@@ -25,7 +25,7 @@ const Navbar = () => {
        ${y > 0 && "border-b-[1px] border-white-1/30"}
        `}
     >
-      <p className="p-3 text-white-1 hover:text-green-2 text-2xl cursor-pointer mr-2">
+      <p className="p-3 text-white-1 hover:text-green-1 text-2xl cursor-pointer mr-2">
         <Link
           activeStyle={{ color: "#00ADB5" }}
           to="about"
@@ -36,7 +36,7 @@ const Navbar = () => {
           About
         </Link>
       </p>
-      <p className="p-3 text-white-1 hover:text-green-2 text-2xl cursor-pointer mr-2">
+      <p className="p-3 text-white-1 hover:text-green-1 text-2xl cursor-pointer mr-2">
         <Link
           activeStyle={{ color: "#00ADB5" }}
           to="experience"
@@ -47,7 +47,7 @@ const Navbar = () => {
           Experience
         </Link>
       </p>
-      <p className="p-3 text-white-1 hover:text-green-2 text-2xl cursor-pointer">
+      <p className="p-3 text-white-1 hover:text-green-1 text-2xl cursor-pointer">
         <Link
           activeStyle={{ color: "#00ADB5" }}
           to="project"
